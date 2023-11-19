@@ -68,7 +68,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             />
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu pfp" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="profile.html">Profile</a>
               <a class="dropdown-item" href="login_page.html">Log Out</a>
             </div>
@@ -78,12 +78,33 @@
     </nav>
 
     <div class="px-5 py-3">
-        <h1><u> ACHIEVEMENTS </u></h1>
-        <p> This user has been awarded "PHILANTROPIST OF THE MONTH"</p>
-      <h1><u>Events</u></h1>
+        <div>
+          <img
+                src="https://avatars.githubusercontent.com/u/147748338?v=4"
+                class="float-left rounded-circle"
+                width="32px"
+                height="32px"
+              />
+          <h2 class="float-left">UserName</h2>
+        </div>
+        <br>
+        <br>
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+      <p class="text-secondary">This user is verified.</p>
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          View Achievments
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Friend 10 Users</a>
+          <a class="dropdown-item" href="#">Become Verified</a>
+          <a class="dropdown-item" href="#">Host an event</a>
+        </div>
+      </div>
+
+      <p class="pl-5 pt-3">
+        <span class="text-info">This is the users about me/bio.</span> Repellendus
         eaque natus nisi repudiandae veniam dolorum earum quas voluptatibus quia
         quisquam odit provident molestiae tempora, atque doloremque architecto
         ut ab aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -104,6 +125,19 @@
         accusamus tenetur natus veritatis a voluptates. Quia alias ipsum
         nesciunt facere at laborum, totam distinctio aliquam voluptatem sed!
       </p>
+
+      <strong>Events Participated in</strong>
+      <ul>
+        <li>SomethingCon 2023</li>
+        <li>Something charity 2022</li>
+        <li>Cancer Fundraiser 2019</li>
+      </ul>
+
+      <strong>Upcoming Events</strong>
+      <ul>
+        <li><a href="#">Charity thingy</a></li>
+        <li><a href="#">Giving food to the homeless</a></li>
+      </ul>
     </div>
 
     <hr />
